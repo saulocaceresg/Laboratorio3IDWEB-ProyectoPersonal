@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    color: crimson;
+}
+header nav {
+    width: 100%;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    /* padding-inline-start: 0px; */
+}
+header nav ul li {
+    flex: 1;
+    text-align: left;
+    /* list-style-type: none; */
+    display: inline;
+    flex: 1;
+    font-size: 1.1em;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav ul li a {
+    /* color: white; */
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    /* flex-flow: row wrap; */
+    display: flex;
+    background-color: #ec8e00;
+    text-decoration: none;
+}
+header nav ul .desplegable {
+    list-style-type: none;
+    display: block;
+}
+.desplegable summary::-webkit-details-marker {
+    display: none;
+}
