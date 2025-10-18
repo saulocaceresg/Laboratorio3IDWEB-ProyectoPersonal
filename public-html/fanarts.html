@@ -4,77 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LIBROS... Resúmenes y más | Fanarts</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles_formato.css">
 </head>
 <body>
     <header>
-        <h1>Fanarts</h1>
-        <h3>Contenidos:</h3> <!-- Menú principal -->
-        <nav>
+        <nav> <!-- Menú principal -->
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li>
-                    <details>
-                        <summary><a href="generos.html">Géneros</a></summary> <!-- Menú interactivo para géneros -->
-                        <ul>
-                            <li><a href="generos.html#distopia">Distopía</a></li>
-                            <li><a href="generos.html#cific">Ciencia Ficción</a></li>
-                            <li><a href="generos.html#horcosmico">Horror Cósmico</a></li>
-                            <li><a href="generos.html#postap">Postapocalíptico</a></li>
-                            <li><a href="generos.html#avenymund">Aventura y Mundo Perdido</a></li>
-                        </ul>
-                    </details>
+                <li class="desplegable1">
+                    <a href="generos.html">Géneros</a> <!-- Menú interactivo para géneros -->
+                    <ul class="submenu">
+                        <li><a href="generos.html#distopia">Distopía</a></li>
+                        <li><a href="generos.html#cific">Ciencia Ficción</a></li>
+                        <li><a href="generos.html#horcosmico">Horror Cósmico</a></li>
+                        <li><a href="generos.html#postap">Postapocalíptico</a></li>
+                        <li><a href="generos.html#avenymund">Aventura y Mundo Perdido</a></li>
+                    </ul>
                 </li>
-                <li>
-                    <details>
-                        <summary><a href="libros.html">Los Libros</a></summary> <!-- Menú interactivo de libros -->
-                        <ul>
-                            <li><a href="libros.html#ochcu">1984</a></li>
-                            <li><a href="libros.html#f451">Farenheit 451</a></li>
-                            <li><a href="libros.html#umf">Un Mundo Feliz</a></li>
-                            <li><a href="libros.html#nos">Nosotros</a></li>
-                            <li><a href="libros.html#eslc">Ensayo sobre la ceguera</a></li>
-                            <li><a href="libros.html#lhdl">La Historia del Loco</a></li>
-                            <li><a href="libros.html#relg">Rebelión en la Granja</a></li>
-                            <li><a href="libros.html#ldc">La Divina Comedia</a></li>
-                            <li><a href="libros.html#vacdlt">Viaje al Centro de la Tierra</a></li>
-                            <li><a href="libros.html#lvame8d">La Vuelta al Mundo en 80 Días</a></li>
-                            <li><a href="libros.html#mtc">Mitos de Cthulhu</a></li>
-                            <li><a href="libros.html#dif">Diferente</a></li>
-                            <li><a href="libros.html#yvg">Yo Visité Ganímedes</a></li>
-                            <li>
-                                <nav>
-                                    <details>
-                                        <summary><a href="libros.html#novcort">Novelas Cortas</a></summary> <!-- Menú interactivo para novelas cortas -->
-                                        <ul>
-                                            <li><a href="libros.html#psionica">Psionica</a></li>
-                                            <li><a href="libros.html#aoldle">Al Otro Lado de las Estrellas</a></li>
-                                            <li><a href="libros.html#ped">Próxima Estación: Destino</a></li>
-                                        </ul>
-                                    </details>
-                                </nav>
-                            </li>
-                            <li>
-                                <nav>
-                                    <details>
-                                        <summary><a href="libros.html#curel">Cuentos y relatos</a></summary> <!-- Menú interactivo de Cuentos cortos -->
-                                        <ul>
-                                            <li><a href="libros.html#ntbydg">No Tengo Boca y Debo Gritar</a></li>
-                                            <li><a href="libros.html#lup">La Última Pregunta</a></li>
-                                        </ul>
-                                    </details>
-                                </nav>
-                            </li>
-                            <!-- <li><a href="libros.html#"></a></li> -->
-                        </ul>
-                    </details>
+                <li class="desplegable1">
+                    <a href="libros.html">Los Libros</a> <!-- Menú interactivo de libros -->
+                    <ul class="submenu">
+                        <li><a href="libros.html#ochcu">1984</a></li>
+                        <li><a href="libros.html#f451">Farenheit 451</a></li>
+                        <li><a href="libros.html#umf">Un Mundo Feliz</a></li>
+                        <li><a href="libros.html#nos">Nosotros</a></li>
+                        <li><a href="libros.html#eslc">Ensayo sobre la ceguera</a></li>
+                        <li><a href="libros.html#lhdl">La Historia del Loco</a></li>
+                        <li><a href="libros.html#relg">Rebelión en la Granja</a></li>
+                        <li><a href="libros.html#ldc">La Divina Comedia</a></li>
+                        <li><a href="libros.html#vacdlt">Viaje al Centro de la Tierra</a></li>
+                        <li><a href="libros.html#lvame80d">La Vuelta al Mundo en 80 Días</a></li>
+                        <li><a href="libros.html#mtc">Mitos de Cthulhu</a></li>
+                        <li><a href="libros.html#dif">Diferente</a></li>
+                        <li><a href="libros.html#yvg">Yo Visité Ganímedes</a></li>
+                        <li class="desplegable2">
+                            <nav>
+                                <a href="libros.html#novcort" class="tdesple2"><b>Novelas Cortas</b></a> <!-- Menú interactivo para novelas cortas -->
+                                <ul class="subsubmenu">
+                                    <li><a href="libros.html#psionica">Psionica</a></li>
+                                    <li><a href="libros.html#aoldle">Al Otro Lado de las Estrellas</a></li>
+                                    <li><a href="libros.html#ped">Próxima Estación: Destino</a></li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <li class="desplegable2">
+                            <nav>
+                                <a href="libros.html#curel" class="tdesple2"><b>Cuentos y relatos</b></a> <!-- Menú interactivo de Cuentos cortos -->
+                                <ul class="subsubmenu">
+                                    <li><a href="libros.html#ntbydg">No Tengo Boca y Debo Gritar</a></li>
+                                    <li><a href="libros.html#lup">La Última Pregunta</a></li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <!-- <li><a href="libros.html#"></a></li> -->
+                    </ul>
                 </li>
                 <li><a href="resumenesycuriosidades.html">Resúmenes y Curiosidades</a></li>
                 <li><a href="fanarts.html">Fanarts</a></li>
                 <li><a href="descargas.html">Descargas</a></li>
             </ul>
+            <!-- <br><br><br> -->
+            <h1>LIBROS... Resúmenes y más</h1>
         </nav>
     </header>
+    <h1>Fanarts</h1>
+    <h3>Contenidos:</h3> <!-- Menú principal -->
+
     <p>Aquí encontrarás unos artes hechos por fans o conocedores de los libros presentados, que encontré por Internet.</p>
     <p>Se hace mención a cada autor</p>
 </body>
